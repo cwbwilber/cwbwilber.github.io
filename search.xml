@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>IO流</title>
-    <url>/2022/06/28/21-01-09/Java/IO%E6%B5%81/</url>
+    <title>JavaIO流</title>
+    <url>/2022/06/28/21-01-09/Java/JavaIO%E6%B5%81/</url>
     <content><![CDATA[<h1 id="Java-IO流"><a href="#Java-IO流" class="headerlink" title="Java IO流"></a>Java IO流</h1><h2 id="什么是IO流"><a href="#什么是IO流" class="headerlink" title="什么是IO流"></a>什么是IO流</h2><p>通过IO操作可以完成硬盘文件的读写</p>
-<p><img src="../../images/IO%E6%B5%81/%E4%BB%80%E4%B9%88%E6%98%AFIO.png" alt="什么是IO"></p>
+<p><img src="/../../images/IO%E6%B5%81/%E4%BB%80%E4%B9%88%E6%98%AFIO.png" alt="什么是IO"></p>
 <h2 id="IO流的分类"><a href="#IO流的分类" class="headerlink" title="IO流的分类"></a>IO流的分类</h2><h3 id="按照流的方向进行分类（输入流、输出流）"><a href="#按照流的方向进行分类（输入流、输出流）" class="headerlink" title="按照流的方向进行分类（输入流、输出流）"></a>按照流的方向进行分类（输入流、输出流）</h3><p>以内存作为参照物</p>
 <ul>
 <li>  往内存中去，叫做输入（Input），或者叫做读（Read）</li>
@@ -126,6 +126,47 @@
       </tags>
   </entry>
   <entry>
+    <title>Java线程</title>
+    <url>/2022/06/29/11-32-52/Java/Java%E7%BA%BF%E7%A8%8B/</url>
+    <content><![CDATA[<h1 id="Java-多线程"><a href="#Java-多线程" class="headerlink" title="Java 多线程"></a>Java 多线程</h1><h2 id="什么是进程？什么是线程？"><a href="#什么是进程？什么是线程？" class="headerlink" title="什么是进程？什么是线程？"></a>什么是进程？什么是线程？</h2><blockquote>
+<p>  进程是一个应用程序。(进程是一个软件)</p>
+<p>  线程是一个进程中的执行场景/执行单元。</p>
+<p>  一个进程可以启动多个线程。</p>
+<p>  <strong>对于Java程序，当DOS命令窗口输入：java HelloWorld</strong> </p>
+<p>  会先启动JVM，而JVM就是一个进程</p>
+<p>  JVM在启动一个主线程调用main方法</p>
+<p>  同时在启动一个垃圾回收线程复制看护，回收垃圾</p>
+</blockquote>
+<h2 id="进程和线程的关系"><a href="#进程和线程的关系" class="headerlink" title="进程和线程的关系"></a>进程和线程的关系</h2><blockquote>
+<ul>
+<li><p>进程A：</p>
+<ul>
+<li><p>  线程A-1</p>
+</li>
+<li><p>  线程A-2</p>
+</li>
+</ul>
+</li>
+<li><p>进程B：</p>
+<ul>
+<li>  线程B-1</li>
+<li>  线程B-2</li>
+</ul>
+</li>
+</ul>
+<p>  进程A和进程B的内存独立不共享</p>
+<p>  在Java语言中：线程A-1和线程A-2，堆内存和方法区内存共享，但是栈内存独立，一个线程一个栈</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>Java</category>
+      </categories>
+      <tags>
+        <tag>Java</tag>
+        <tag>线程</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>集合</title>
     <url>/2022/06/29/11-32-51/Java/%E9%9B%86%E5%90%88/</url>
     <content><![CDATA[]]></content>
@@ -135,18 +176,6 @@
       <tags>
         <tag>Java</tag>
         <tag>集合</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>线程</title>
-    <url>/2022/06/29/11-32-52/Java/%E7%BA%BF%E7%A8%8B/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>Java</category>
-      </categories>
-      <tags>
-        <tag>Java</tag>
-        <tag>线程</tag>
       </tags>
   </entry>
   <entry>
