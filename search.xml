@@ -21,54 +21,48 @@
 </blockquote>
 <h2 id="Java后端"><a href="#Java后端" class="headerlink" title="Java后端"></a>Java后端</h2><h3 id="基础-1"><a href="#基础-1" class="headerlink" title="基础"></a>基础</h3><blockquote>
 <ul>
-<li><p>  集合</p>
-</li>
-<li><p>  IO流</p>
-</li>
-<li><p>  多线程</p>
-</li>
-<li><p>  反射</p>
-</li>
-<li><p>  JavaWEB</p>
-</li>
+<li>  集合</li>
+<li>  IO流</li>
+<li>  多线程：</li>
+<li>  反射</li>
+<li>  <a href="https://www.bilibili.com/video/BV1Bt41137iB?spm_id_from=333.999.0.0&vd_source=6e5242f2187dde8a6f00cbdd68bd39c2">JDBC</a></li>
+<li>  <a href="https://www.bilibili.com/video/BV1Z3411C7NZ?spm_id_from=333.999.0.0&vd_source=6e5242f2187dde8a6f00cbdd68bd39c2">JavaWEB</a></li>
 </ul>
 </blockquote>
 <h3 id="框架-1"><a href="#框架-1" class="headerlink" title="框架"></a>框架</h3><blockquote>
 <ul>
-<li>  Maven</li>
-<li>  SSM框架</li>
-<li>  SpringBoot框架</li>
-<li>  MyBatisPlus框架</li>
-<li>  SpringSecurity框架</li>
+<li>  <a href="https://www.bilibili.com/video/BV1Fi4y1S7ix?spm_id_from=333.999.0.0">Maven</a></li>
+<li>  <a href="https://www.bilibili.com/video/BV1Fi4y1S7ix?spm_id_from=333.999.0.0">SSM框架</a></li>
+<li>  <a href="https://www.bilibili.com/video/BV1Fi4y1S7ix?spm_id_from=333.999.0.0">SpringBoot框架</a></li>
+<li>  <a href="https://www.bilibili.com/video/BV1Fi4y1S7ix?spm_id_from=333.999.0.0">MyBatisPlus框架</a></li>
 </ul>
 </blockquote>
 <h3 id="分布式"><a href="#分布式" class="headerlink" title="分布式"></a>分布式</h3><blockquote>
 <ul>
-<li>  Nginx</li>
-<li>  Dubbo</li>
-<li>  Zokeeper</li>
-<li>  RabbitMQ</li>
-<li>  RocketMQ</li>
-<li>  Docker</li>
-<li>  MongoDB</li>
-<li>  Elasticsearch</li>
-<li>  SpringCloud框架</li>
-<li>  SpringCloud Alibaba框架</li>
+<li>  <a href="https://www.bilibili.com/video/BV1ov41187bq?spm_id_from=333.999.0.0">Nginx</a></li>
+<li>  <a href="https://www.bilibili.com/video/BV1VE411q7dX?spm_id_from=333.999.0.0">Dubbo</a></li>
+<li>  <a href="https://www.bilibili.com/video/BV15k4y1k7Ep?spm_id_from=333.999.0.0&vd_source=6e5242f2187dde8a6f00cbdd68bd39c2">RabbitMQ</a></li>
+<li>  <a href="https://www.bilibili.com/video/BV1CJ411T7BK?spm_id_from=333.999.0.0&vd_source=6e5242f2187dde8a6f00cbdd68bd39c2">Docker</a></li>
+<li>  <a href="https://www.bilibili.com/video/BV1bJ411x7mq?spm_id_from=333.999.0.0&vd_source=6e5242f2187dde8a6f00cbdd68bd39c2">MongoDB</a></li>
+<li>  <a href="https://www.bilibili.com/video/BV1qr4y1w7hJ?spm_id_from=333.999.0.0&vd_source=6e5242f2187dde8a6f00cbdd68bd39c2">Elasticsearch</a></li>
+<li>  <a href="https://www.bilibili.com/video/BV15a411A7kP?spm_id_from=333.999.0.0&vd_source=6e5242f2187dde8a6f00cbdd68bd39c2">SpringSecurity框架</a></li>
+<li>  <a href="https://www.bilibili.com/video/BV1LQ4y127n4?spm_id_from=333.999.0.0&vd_source=6e5242f2187dde8a6f00cbdd68bd39c2">SpringCloud框架</a></li>
+<li>  <a href="https://www.bilibili.com/video/BV1R7411774f?spm_id_from=333.999.0.0&vd_source=6e5242f2187dde8a6f00cbdd68bd39c2">SpringCloud Alibaba框架</a></li>
 </ul>
 </blockquote>
 <h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><h3 id="基础-2"><a href="#基础-2" class="headerlink" title="基础"></a>基础</h3><blockquote>
 <ul>
-<li>  操作系统</li>
-<li>  数据结构</li>
-<li>  计算机网络</li>
+<li>  操作系统：</li>
+<li>  数据结构：</li>
+<li>  计算机网络：</li>
 </ul>
 </blockquote>
 <h3 id="工具"><a href="#工具" class="headerlink" title="工具"></a>工具</h3><blockquote>
 <ul>
-<li>  Git版本控制</li>
-<li>  MySQL数据库</li>
-<li>  Redis数据库</li>
-<li>  Linux操作系统</li>
+<li>  <a href="https://www.bilibili.com/video/BV1iv411p7ap?spm_id_from=333.999.0.0&vd_source=6e5242f2187dde8a6f00cbdd68bd39c2">Git版本控制</a></li>
+<li>  <a href="https://www.bilibili.com/video/BV1fx411X7BD?spm_id_from=333.999.0.0">MySQL数据库</a></li>
+<li>  <a href="https://www.bilibili.com/video/BV1cr4y1671t?spm_id_from=333.999.0.0&vd_source=6e5242f2187dde8a6f00cbdd68bd39c2">Redis数据库</a></li>
+<li>  <a href="https://www.bilibili.com/video/BV1WY4y1H7d3?spm_id_from=333.999.0.0&vd_source=6e5242f2187dde8a6f00cbdd68bd39c2">Linux操作系统</a></li>
 </ul>
 </blockquote>
 ]]></content>
@@ -294,6 +288,48 @@
       </tags>
   </entry>
   <entry>
+    <title>反射</title>
+    <url>/2022/06/29/11-32-51/Java/%E5%8F%8D%E5%B0%84/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>Java</category>
+      </categories>
+      <tags>
+        <tag>Java</tag>
+        <tag>反射</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Java线程安全</title>
+    <url>/2022/07/01/13-32-49/Java/Java%E7%BA%BF%E7%A8%8B%E5%AE%89%E5%85%A8/</url>
+    <content><![CDATA[<h1 id="Java线程安全"><a href="#Java线程安全" class="headerlink" title="Java线程安全"></a>Java线程安全</h1><h2 id="线程安全问题"><a href="#线程安全问题" class="headerlink" title="线程安全问题"></a>线程安全问题</h2><blockquote>
+<p>  多线程环境中，且存在数据共享，一个线程访问的共享数据被其他线程修改了，那么就发生了线程安全问题，整个访问过程中，无一共享的数据被其他线程修改了就是线程安全的</p>
+<p>  <strong>线程不安全的三个条件</strong></p>
+<ul>
+<li>  多线程并发</li>
+<li>  有数据共享</li>
+<li>  共享数据有修改的行为</li>
+</ul>
+<p>  满足以上三个条件后，就会存在线程安全问题</p>
+<p>  <strong>如何解决线程安全问题？</strong><br>  当多个线程并发的环境下，有共享数据，并且这个数据还会被修改，此时就存在线程安全问题</p>
+<ul>
+<li>  <strong>同步编程模型（效率低）：</strong>线程排队执行</li>
+<li>  <strong>异步编程模型（效率高）：</strong>多线程并发执行</li>
+</ul>
+</blockquote>
+<h2 id="模拟线程不安全"><a href="#模拟线程不安全" class="headerlink" title="模拟线程不安全"></a>模拟线程不安全</h2><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@author</span>: 玮柏</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@Data</span>: 2022-07-01 11:49</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@description</span>: 账户类</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="meta">@Data</span></span><br><span class="line"><span class="meta">@NoArgsConstructor</span></span><br><span class="line"><span class="meta">@AllArgsConstructor</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">Account</span> &#123;</span><br><span class="line">    <span class="comment">// 账号</span></span><br><span class="line">    <span class="keyword">private</span> String id;</span><br><span class="line">    <span class="comment">// 余额</span></span><br><span class="line">    <span class="keyword">private</span> <span class="type">double</span> balance;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">wuthdraw</span><span class="params">(<span class="type">double</span> money)</span> &#123;</span><br><span class="line">        <span class="type">double</span> <span class="variable">before</span> <span class="operator">=</span> <span class="built_in">this</span>.getBalance();</span><br><span class="line">        <span class="type">double</span> <span class="variable">after</span> <span class="operator">=</span> before - money;</span><br><span class="line">        <span class="keyword">try</span> &#123;</span><br><span class="line">            <span class="comment">// 睡眠后另一个线程在数据未修改的情况下对该数据进行操作</span></span><br><span class="line">          	<span class="comment">// 此时线程肯定不安全</span></span><br><span class="line">            Thread.sleep(<span class="number">1000</span>);</span><br><span class="line">        &#125; <span class="keyword">catch</span> (InterruptedException e) &#123;</span><br><span class="line">            e.printStackTrace();</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="built_in">this</span>.setBalance(after);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@author</span>: 玮柏</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@Data</span>: 2022-07-01 11:54</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@description</span>: 操作账户的线程</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="meta">@AllArgsConstructor</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">AccountThread</span> <span class="keyword">extends</span> <span class="title class_">Thread</span> &#123;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">private</span> Account account;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">run</span><span class="params">()</span> &#123;</span><br><span class="line">        <span class="comment">// 取款5000</span></span><br><span class="line">        <span class="type">double</span> <span class="variable">money</span> <span class="operator">=</span> <span class="number">5000</span>;</span><br><span class="line">        account.wuthdraw(money);</span><br><span class="line">        System.out.println(Thread.currentThread().getName() +</span><br><span class="line">                <span class="string">&quot; = &quot;</span> + account.getId() + <span class="string">&quot;取款成功，余额&quot;</span> + account.getBalance());</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@author</span>: 玮柏</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@Data</span>: 2022-07-01 11:48</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@description</span>:</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">AccountThreadTest</span> &#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">        <span class="comment">// 创建一个账户对象</span></span><br><span class="line">        <span class="type">Account</span> <span class="variable">account</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">Account</span>(<span class="string">&quot;a-001&quot;</span>, <span class="number">10000</span>);</span><br><span class="line">        <span class="comment">// 创建线程对象t1、t2</span></span><br><span class="line">        <span class="type">Thread</span> <span class="variable">t1</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">AccountThread</span>(account);</span><br><span class="line">        <span class="type">Thread</span> <span class="variable">t2</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">AccountThread</span>(account);</span><br><span class="line">        <span class="comment">// 修改线程名称</span></span><br><span class="line">        t1.setName(<span class="string">&quot;t1&quot;</span>);</span><br><span class="line">        t2.setName(<span class="string">&quot;t2&quot;</span>);</span><br><span class="line">        <span class="comment">// 启动线程</span></span><br><span class="line">        t1.start();</span><br><span class="line">        t2.start();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h2 id="使用线程排队（同步）解决线程安全"><a href="#使用线程排队（同步）解决线程安全" class="headerlink" title="使用线程排队（同步）解决线程安全"></a>使用线程排队（同步）解决线程安全</h2><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@author</span>: 玮柏</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@Data</span>: 2022-07-01 11:49</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@description</span>:</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="meta">@Data</span></span><br><span class="line"><span class="meta">@NoArgsConstructor</span></span><br><span class="line"><span class="meta">@AllArgsConstructor</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">Account</span> &#123;</span><br><span class="line">    <span class="comment">// 账号</span></span><br><span class="line">    <span class="keyword">private</span> String id;</span><br><span class="line">    <span class="comment">// 余额</span></span><br><span class="line">    <span class="keyword">private</span> <span class="type">double</span> balance;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">wuthdraw</span><span class="params">(<span class="type">double</span> money)</span> &#123;</span><br><span class="line">        <span class="comment">// 使用线程排队（同步）</span></span><br><span class="line">        <span class="comment">// 一个线程结束后另一个线程才可以进来</span></span><br><span class="line">        <span class="comment">/*</span></span><br><span class="line"><span class="comment">            // 线程同步机制的语法</span></span><br><span class="line"><span class="comment">            synchronized () &#123;</span></span><br><span class="line"><span class="comment">                // 线程同步代码块</span></span><br><span class="line"><span class="comment">            &#125;</span></span><br><span class="line"><span class="comment">            synchronized 后面小括号中传的这个数据必须是多线程共享的数据</span></span><br><span class="line"><span class="comment">         */</span></span><br><span class="line">        <span class="keyword">synchronized</span> (<span class="built_in">this</span>) &#123;</span><br><span class="line">            <span class="type">double</span> <span class="variable">before</span> <span class="operator">=</span> <span class="built_in">this</span>.getBalance();</span><br><span class="line">            <span class="type">double</span> <span class="variable">after</span> <span class="operator">=</span> before - money;</span><br><span class="line">            <span class="keyword">try</span> &#123;</span><br><span class="line">                <span class="comment">// 睡眠后另一个线程在数据未修改的情况下对该数据进行操作</span></span><br><span class="line">                Thread.sleep(<span class="number">1000</span>);</span><br><span class="line">            &#125; <span class="keyword">catch</span> (InterruptedException e) &#123;</span><br><span class="line">                e.printStackTrace();</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="built_in">this</span>.setBalance(after);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>Java</category>
+      </categories>
+      <tags>
+        <tag>Java</tag>
+        <tag>线程安全</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Java集合</title>
     <url>/2022/06/29/11-32-51/Java/Java%E9%9B%86%E5%90%88/</url>
     <content><![CDATA[<h1 id="Java集合"><a href="#Java集合" class="headerlink" title="Java集合"></a>Java集合</h1><h2 id="集合概述"><a href="#集合概述" class="headerlink" title="集合概述"></a>集合概述</h2><h3 id="什么是集合"><a href="#什么是集合" class="headerlink" title="什么是集合"></a>什么是集合</h3><blockquote>
@@ -415,45 +451,15 @@
       </tags>
   </entry>
   <entry>
-    <title>Java线程安全</title>
-    <url>/2022/07/01/13-32-49/Java/Java%E7%BA%BF%E7%A8%8B%E5%AE%89%E5%85%A8/</url>
-    <content><![CDATA[<h1 id="Java线程安全"><a href="#Java线程安全" class="headerlink" title="Java线程安全"></a>Java线程安全</h1><h2 id="线程安全问题"><a href="#线程安全问题" class="headerlink" title="线程安全问题"></a>线程安全问题</h2><blockquote>
-<p>  多线程环境中，且存在数据共享，一个线程访问的共享数据被其他线程修改了，那么就发生了线程安全问题，整个访问过程中，无一共享的数据被其他线程修改了就是线程安全的</p>
-<p>  <strong>线程不安全的三个条件</strong></p>
-<ul>
-<li>  多线程并发</li>
-<li>  有数据共享</li>
-<li>  共享数据有修改的行为</li>
-</ul>
-<p>  满足以上三个条件后，就会存在线程安全问题</p>
-<p>  <strong>如何解决线程安全问题？</strong><br>  当多个线程并发的环境下，有共享数据，并且这个数据还会被修改，此时就存在线程安全问题</p>
-<ul>
-<li>  <strong>同步编程模型（效率低）：</strong>线程排队执行</li>
-<li>  <strong>异步编程模型（效率高）：</strong>多线程并发执行</li>
-</ul>
-</blockquote>
-<h2 id="模拟线程不安全"><a href="#模拟线程不安全" class="headerlink" title="模拟线程不安全"></a>模拟线程不安全</h2><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@author</span>: 玮柏</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@Data</span>: 2022-07-01 11:49</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@description</span>: 账户类</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="meta">@Data</span></span><br><span class="line"><span class="meta">@NoArgsConstructor</span></span><br><span class="line"><span class="meta">@AllArgsConstructor</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">Account</span> &#123;</span><br><span class="line">    <span class="comment">// 账号</span></span><br><span class="line">    <span class="keyword">private</span> String id;</span><br><span class="line">    <span class="comment">// 余额</span></span><br><span class="line">    <span class="keyword">private</span> <span class="type">double</span> balance;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">wuthdraw</span><span class="params">(<span class="type">double</span> money)</span> &#123;</span><br><span class="line">        <span class="type">double</span> <span class="variable">before</span> <span class="operator">=</span> <span class="built_in">this</span>.getBalance();</span><br><span class="line">        <span class="type">double</span> <span class="variable">after</span> <span class="operator">=</span> before - money;</span><br><span class="line">        <span class="keyword">try</span> &#123;</span><br><span class="line">            <span class="comment">// 睡眠后另一个线程在数据未修改的情况下对该数据进行操作</span></span><br><span class="line">          	<span class="comment">// 此时线程肯定不安全</span></span><br><span class="line">            Thread.sleep(<span class="number">1000</span>);</span><br><span class="line">        &#125; <span class="keyword">catch</span> (InterruptedException e) &#123;</span><br><span class="line">            e.printStackTrace();</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="built_in">this</span>.setBalance(after);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@author</span>: 玮柏</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@Data</span>: 2022-07-01 11:54</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@description</span>: 操作账户的线程</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="meta">@AllArgsConstructor</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">AccountThread</span> <span class="keyword">extends</span> <span class="title class_">Thread</span> &#123;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">private</span> Account account;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">run</span><span class="params">()</span> &#123;</span><br><span class="line">        <span class="comment">// 取款5000</span></span><br><span class="line">        <span class="type">double</span> <span class="variable">money</span> <span class="operator">=</span> <span class="number">5000</span>;</span><br><span class="line">        account.wuthdraw(money);</span><br><span class="line">        System.out.println(Thread.currentThread().getName() +</span><br><span class="line">                <span class="string">&quot; = &quot;</span> + account.getId() + <span class="string">&quot;取款成功，余额&quot;</span> + account.getBalance());</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@author</span>: 玮柏</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@Data</span>: 2022-07-01 11:48</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@description</span>:</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">AccountThreadTest</span> &#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">        <span class="comment">// 创建一个账户对象</span></span><br><span class="line">        <span class="type">Account</span> <span class="variable">account</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">Account</span>(<span class="string">&quot;a-001&quot;</span>, <span class="number">10000</span>);</span><br><span class="line">        <span class="comment">// 创建线程对象t1、t2</span></span><br><span class="line">        <span class="type">Thread</span> <span class="variable">t1</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">AccountThread</span>(account);</span><br><span class="line">        <span class="type">Thread</span> <span class="variable">t2</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">AccountThread</span>(account);</span><br><span class="line">        <span class="comment">// 修改线程名称</span></span><br><span class="line">        t1.setName(<span class="string">&quot;t1&quot;</span>);</span><br><span class="line">        t2.setName(<span class="string">&quot;t2&quot;</span>);</span><br><span class="line">        <span class="comment">// 启动线程</span></span><br><span class="line">        t1.start();</span><br><span class="line">        t2.start();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<h2 id="使用线程排队（同步）解决线程安全"><a href="#使用线程排队（同步）解决线程安全" class="headerlink" title="使用线程排队（同步）解决线程安全"></a>使用线程排队（同步）解决线程安全</h2><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@author</span>: 玮柏</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@Data</span>: 2022-07-01 11:49</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@description</span>:</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="meta">@Data</span></span><br><span class="line"><span class="meta">@NoArgsConstructor</span></span><br><span class="line"><span class="meta">@AllArgsConstructor</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">Account</span> &#123;</span><br><span class="line">    <span class="comment">// 账号</span></span><br><span class="line">    <span class="keyword">private</span> String id;</span><br><span class="line">    <span class="comment">// 余额</span></span><br><span class="line">    <span class="keyword">private</span> <span class="type">double</span> balance;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">wuthdraw</span><span class="params">(<span class="type">double</span> money)</span> &#123;</span><br><span class="line">        <span class="comment">// 使用线程排队（同步）</span></span><br><span class="line">        <span class="comment">// 一个线程结束后另一个线程才可以进来</span></span><br><span class="line">        <span class="comment">/*</span></span><br><span class="line"><span class="comment">            // 线程同步机制的语法</span></span><br><span class="line"><span class="comment">            synchronized () &#123;</span></span><br><span class="line"><span class="comment">                // 线程同步代码块</span></span><br><span class="line"><span class="comment">            &#125;</span></span><br><span class="line"><span class="comment">            synchronized 后面小括号中传的这个数据必须是多线程共享的数据</span></span><br><span class="line"><span class="comment">         */</span></span><br><span class="line">        <span class="keyword">synchronized</span> (<span class="built_in">this</span>) &#123;</span><br><span class="line">            <span class="type">double</span> <span class="variable">before</span> <span class="operator">=</span> <span class="built_in">this</span>.getBalance();</span><br><span class="line">            <span class="type">double</span> <span class="variable">after</span> <span class="operator">=</span> before - money;</span><br><span class="line">            <span class="keyword">try</span> &#123;</span><br><span class="line">                <span class="comment">// 睡眠后另一个线程在数据未修改的情况下对该数据进行操作</span></span><br><span class="line">                Thread.sleep(<span class="number">1000</span>);</span><br><span class="line">            &#125; <span class="keyword">catch</span> (InterruptedException e) &#123;</span><br><span class="line">                e.printStackTrace();</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="built_in">this</span>.setBalance(after);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-]]></content>
+    <title>Nginx</title>
+    <url>/2022/07/04/16-04-36/%E5%88%86%E5%B8%83%E5%BC%8F/Nginx/</url>
+    <content><![CDATA[<h1 id="Nginx"><a href="#Nginx" class="headerlink" title="Nginx"></a>Nginx</h1>]]></content>
       <categories>
-        <category>Java</category>
+        <category>分布式</category>
       </categories>
       <tags>
-        <tag>Java</tag>
-        <tag>线程安全</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>反射</title>
-    <url>/2022/06/29/11-32-51/Java/%E5%8F%8D%E5%B0%84/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>Java</category>
-      </categories>
-      <tags>
-        <tag>Java</tag>
-        <tag>反射</tag>
+        <tag>Nginx</tag>
+        <tag>分布式</tag>
       </tags>
   </entry>
   <entry>
@@ -700,6 +706,47 @@
       <tags>
         <tag>分布式</tag>
         <tag>Dubbo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>MySQL</title>
+    <url>/2022/07/04/16-31-37/%E5%B7%A5%E5%85%B7/MySQL/</url>
+    <content><![CDATA[<h1 id="MySQL"><a href="#MySQL" class="headerlink" title="MySQL"></a>MySQL</h1><h2 id="SQL、DB、DBMS关系"><a href="#SQL、DB、DBMS关系" class="headerlink" title="SQL、DB、DBMS关系"></a>SQL、DB、DBMS关系</h2><blockquote>
+<ol>
+<li>  SQL：结构化查询语言，是一门标准通用的语言。标准的SQL适合于所有的数据库产品</li>
+<li>  DB：DataBase（数据库）</li>
+<li>  DBMS：DataBase Management System（数据库管理系统，常见的有：Mysql Oracle DB2 Sybase SqlServer…）</li>
+</ol>
+<p>  DBMS负责执行SQL语句，通过执行SQL语句来操作DB当中的数据</p>
+<p>  DBMS –&gt; SQL –&gt; DB</p>
+</blockquote>
+<p>登录账户</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">mysql -uroot -ppassword  # 密码明文显示</span><br><span class="line">mysql -uroot -p					# 密码隐藏输入</span><br></pre></td></tr></table></figure>
+
+
+
+]]></content>
+      <categories>
+        <category>工具</category>
+      </categories>
+      <tags>
+        <tag>MySQL</tag>
+        <tag>工具</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>SpringSecurity</title>
+    <url>/2022/07/04/16-23-30/%E6%A1%86%E6%9E%B6/SpringSecurity/</url>
+    <content><![CDATA[<h1 id="SpringSecurity"><a href="#SpringSecurity" class="headerlink" title="SpringSecurity"></a>SpringSecurity</h1><h2 id="了解Spring-Security"><a href="#了解Spring-Security" class="headerlink" title="了解Spring Security"></a>了解Spring Security</h2><blockquote>
+</blockquote>
+]]></content>
+      <categories>
+        <category>框架</category>
+      </categories>
+      <tags>
+        <tag>SpringSecurity</tag>
+        <tag>Spring</tag>
+        <tag>框架</tag>
       </tags>
   </entry>
 </search>
