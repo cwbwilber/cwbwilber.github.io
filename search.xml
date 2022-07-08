@@ -240,7 +240,65 @@
 
 <figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@author</span>: 玮柏</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@Data</span>: 2022-07-07 22:09</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@description</span>:</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">ReflectTest13</span> &#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> <span class="keyword">throws</span> Exception &#123;</span><br><span class="line">        <span class="comment">// String</span></span><br><span class="line">        Class&lt;?&gt; stringClass = Class.forName(<span class="string">&quot;java.lang.String&quot;</span>);</span><br><span class="line">        <span class="comment">// String的父类</span></span><br><span class="line">        Class&lt;?&gt; superclass = stringClass.getSuperclass();</span><br><span class="line">        System.out.println(superclass.getName());</span><br><span class="line"></span><br><span class="line">        <span class="comment">// 获取String实现的所有接口</span></span><br><span class="line">        Class&lt;?&gt;[] interfaces = stringClass.getInterfaces();</span><br><span class="line">        <span class="keyword">for</span> (Class&lt;?&gt; anInterface : interfaces) &#123;</span><br><span class="line">            System.out.println(anInterface.getName());</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
-<h2 id="注解"><a href="#注解" class="headerlink" title="注解"></a>注解</h2>]]></content>
+<h1 id="注解"><a href="#注解" class="headerlink" title="注解"></a>注解</h1><blockquote>
+<ul>
+<li><p>  注解又叫做注释，英文单词是：Annotation</p>
+</li>
+<li><p>  注释Annotation是一种引用数据类型。编译后也生成class文件</p>
+</li>
+<li><p>  [修饰符] @interface 注解类型名 {} </p>
+</li>
+<li><p>注解使用</p>
+<ul>
+<li>  语法格式：@注解类型名</li>
+<li>  注解可以出现在类上、属性上、方法上、变量、注解上</li>
+</ul>
+</li>
+</ul>
+</blockquote>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@author</span>: 玮柏</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@Data</span>: 2022-07-08 11:56</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@description</span>: 自定义注解</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="keyword">public</span> <span class="meta">@interface</span> MyAnnotation &#123;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@author</span>: 玮柏</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@Data</span>: 2022-07-08 12:00</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@description</span>:</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="meta">@MyAnnotation</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">AnnotationTest01</span> &#123;</span><br><span class="line">    <span class="meta">@MyAnnotation</span></span><br><span class="line">    <span class="keyword">private</span> <span class="type">int</span> id;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@MyAnnotation</span></span><br><span class="line">    <span class="keyword">public</span> <span class="title function_">AnnotationTest01</span><span class="params">()</span> &#123;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@MyAnnotation</span></span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">method01</span><span class="params">()</span> &#123;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@MyAnnotation</span></span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">void</span> <span class="title function_">method02</span><span class="params">()</span> &#123;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="内置注解"><a href="#内置注解" class="headerlink" title="内置注解"></a>内置注解</h2><h3 id="Deprecated"><a href="#Deprecated" class="headerlink" title="Deprecated"></a>Deprecated</h3><blockquote>
+<p>  用@Deprecated注释的元素，不鼓励程序员使用这样的元素，通常是因为它很危险或存在更好的选则</p>
+</blockquote>
+<h3 id="Override"><a href="#Override" class="headerlink" title="Override"></a>Override</h3><blockquote>
+<p>  用@Override注释的元素表示一个方法声明打算重写超类的另一个方法</p>
+</blockquote>
+<h3 id="SuppressWarnings"><a href="#SuppressWarnings" class="headerlink" title="SuppressWarnings"></a>SuppressWarnings</h3><blockquote>
+<p>  @SuppressWarnings指示应该在该注释元素（以及包含在该注释元素中的所有程序元素）中取消显示指定的编译器警告</p>
+</blockquote>
+<h2 id="元注解"><a href="#元注解" class="headerlink" title="元注解"></a>元注解</h2><blockquote>
+<p>  用来标注“注解类型”的“注解”，称为元注解</p>
+<p>  常见的元注解有</p>
+<ul>
+<li>  Target</li>
+<li>  Retention</li>
+</ul>
+</blockquote>
+<h3 id="Target"><a href="#Target" class="headerlink" title="Target"></a>Target</h3><blockquote>
+<p>  Target用来标注“被标注的注解”可以出现在哪些位置上</p>
+<ul>
+<li>  @Target(ElementType.METHOD)：表示只能出现在方法上</li>
+</ul>
+</blockquote>
+<h3 id="Retention"><a href="#Retention" class="headerlink" title="Retention"></a>Retention</h3><blockquote>
+<p>  Retention用来标注“被标注的注解”最终保存在哪里</p>
+<ul>
+<li>  @Retention(RetentionPolicy.SOURCE)：保留在Java源文件中</li>
+<li>  @Retention(RetentionPolicy.CLASS)：保留在class文件中</li>
+<li>  @Retention(RetentionPolicy.RUNTIME)：保留在class文件中，并且可以被反射机制所读取</li>
+</ul>
+</blockquote>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@author</span>: 玮柏</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@Data</span>: 2022-07-08 11:56</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@description</span>: 自定义注解</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="keyword">public</span> <span class="meta">@interface</span> UserAnnotation &#123;</span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 自定义属性</span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    String <span class="title function_">name</span><span class="params">()</span>;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 颜色属性</span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    String <span class="title function_">color</span><span class="params">()</span>;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 年龄属性</span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="type">int</span> <span class="title function_">age</span><span class="params">()</span> <span class="keyword">default</span> <span class="number">25</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@author</span>: 玮柏</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@Data</span>: 2022-07-08 13:27</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@description</span>:</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">AnnotationTest02</span> &#123;</span><br><span class="line">    <span class="meta">@UserAnnotation(name = &quot;cwb&quot;, color = &quot;#ff0000&quot;)</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">doSome</span><span class="params">()</span> &#123;</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@author</span>: 玮柏</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@Data</span>: 2022-07-08 13:27</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@description</span>:</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">AnnotationTest03</span> &#123;</span><br><span class="line">    <span class="meta">@ValueAnnotation(value = &quot;属性值&quot;)</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">doOther</span><span class="params">()</span> &#123;</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 如果注解的属性名是value，并且只有一个属性可以value属性名可以省略</span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="meta">@ValueAnnotation(&quot;属性值&quot;)</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">doSome</span><span class="params">()</span> &#123;</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@author</span>: 玮柏</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@Data</span>: 2022-07-08 13:32</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@description</span>:</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="keyword">public</span> <span class="meta">@interface</span> ValueAnnotation &#123;</span><br><span class="line">    String <span class="title function_">value</span><span class="params">()</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@author</span>: 玮柏</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@Data</span>: 2022-07-08 13:43</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@description</span>:</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">OtherAnnotationTest</span> &#123;</span><br><span class="line">    <span class="comment">// 数组用大括号表示</span></span><br><span class="line">    <span class="meta">@OtherAnnotation(age = 25, email = &#123;&quot;&quot;, &quot;&quot;&#125;, seasons = &#123;&#125;)</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">doSome</span><span class="params">()</span> &#123;</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 数组中只有一个元素，大括号可以省略</span></span><br><span class="line">    <span class="meta">@OtherAnnotation(age = 25, email = &quot;&quot;, seasons = Season.AUTUMN)</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">doOther</span><span class="params">()</span> &#123;</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@author</span>: 玮柏</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@Data</span>: 2022-07-08 13:41</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@description</span>:</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="keyword">public</span> <span class="meta">@interface</span> OtherAnnotation &#123;</span><br><span class="line">    <span class="type">int</span> <span class="title function_">age</span><span class="params">()</span>;</span><br><span class="line"></span><br><span class="line">    String[] email();</span><br><span class="line"></span><br><span class="line">    Season[] seasons();</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@author</span>: 玮柏</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@Data</span>: 2022-07-08 13:45</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@description</span>:</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">enum</span> <span class="title class_">Season</span> &#123;</span><br><span class="line">    SPRING, SUMMER, AUTUMN, WINTER</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@author</span>: 玮柏</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@Data</span>: 2022-07-08 14:00</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@description</span>:</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">ReflectAnnotationTest</span> &#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> <span class="keyword">throws</span> Exception &#123;</span><br><span class="line">        Class&lt;?&gt; c = Class.forName(<span class="string">&quot;cwb.wilber.annotation.CWBAnnotationTest&quot;</span>);</span><br><span class="line">        <span class="comment">// 判断类上面是否有@CWBAnnotation注解</span></span><br><span class="line">        <span class="type">boolean</span> <span class="variable">annotationPresent</span> <span class="operator">=</span> c.isAnnotationPresent(CWBAnnotation.class);</span><br><span class="line">        System.out.println(annotationPresent);</span><br><span class="line">        <span class="comment">// 获取类上的注解</span></span><br><span class="line">        <span class="keyword">if</span>(annotationPresent)&#123;</span><br><span class="line">            <span class="type">CWBAnnotation</span> <span class="variable">annotation</span> <span class="operator">=</span> c.getAnnotation(CWBAnnotation.class);</span><br><span class="line">            <span class="type">int</span>[] value = annotation.value();</span><br><span class="line">            System.out.println(Arrays.toString(value));</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="comment">// 获取方法上的注解</span></span><br><span class="line">        <span class="type">Method</span> <span class="variable">doSome</span> <span class="operator">=</span> c.getDeclaredMethod(<span class="string">&quot;doSome&quot;</span>);</span><br><span class="line">        <span class="keyword">if</span>(doSome.isAnnotationPresent(CWBAnnotation.class))&#123;</span><br><span class="line">            <span class="type">CWBAnnotation</span> <span class="variable">annotation</span> <span class="operator">=</span> doSome.getAnnotation(CWBAnnotation.class);</span><br><span class="line">            <span class="type">int</span>[] value = annotation.value();</span><br><span class="line">            System.out.println(Arrays.toString(value));</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@author</span>: 玮柏</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@Data</span>: 2022-07-08 13:58</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@description</span>:</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="meta">@CWBAnnotation</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">CWBAnnotationTest</span> &#123;</span><br><span class="line">    <span class="meta">@CWBAnnotation(value = &#123;10, 20, 30, 40, 50, 60&#125;)</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">doSome</span><span class="params">()</span> &#123;</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@author</span>: 玮柏</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@Data</span>: 2022-07-08 13:56</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@description</span>:</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="comment">// 只允许该注解可以标识方法、类</span></span><br><span class="line"><span class="meta">@Target(&#123;ElementType.METHOD, ElementType.TYPE&#125;)</span></span><br><span class="line"><span class="comment">// 希望这个注解可以被反射</span></span><br><span class="line"><span class="meta">@Retention(RetentionPolicy.RUNTIME)</span></span><br><span class="line"><span class="keyword">public</span> <span class="meta">@interface</span> CWBAnnotation &#123;</span><br><span class="line">    <span class="type">int</span>[] value() <span class="keyword">default</span> &#123;<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>&#125;;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+]]></content>
       <categories>
         <category>Java</category>
       </categories>
@@ -533,6 +591,44 @@
       </tags>
   </entry>
   <entry>
+    <title>MySQL</title>
+    <url>/2022/07/04/16-31-37/%E5%B7%A5%E5%85%B7/MySQL/</url>
+    <content><![CDATA[<h1 id="MySQL"><a href="#MySQL" class="headerlink" title="MySQL"></a>MySQL</h1><h2 id="SQL、DB、DBMS关系"><a href="#SQL、DB、DBMS关系" class="headerlink" title="SQL、DB、DBMS关系"></a>SQL、DB、DBMS关系</h2><blockquote>
+<ol>
+<li>  SQL：结构化查询语言，是一门标准通用的语言。标准的SQL适合于所有的数据库产品</li>
+<li>  DB：DataBase（数据库）</li>
+<li>  DBMS：DataBase Management System（数据库管理系统，常见的有：Mysql Oracle DB2 Sybase SqlServer…）</li>
+</ol>
+<p>  DBMS负责执行SQL语句，通过执行SQL语句来操作DB当中的数据</p>
+<p>  DBMS –&gt; SQL –&gt; DB</p>
+</blockquote>
+<p>登录账户</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">mysql -uroot -ppassword  # 密码明文显示</span><br><span class="line">mysql -uroot -p					# 密码隐藏输入</span><br></pre></td></tr></table></figure>
+
+
+
+]]></content>
+      <categories>
+        <category>工具</category>
+      </categories>
+      <tags>
+        <tag>MySQL</tag>
+        <tag>工具</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Maven</title>
+    <url>/2022/07/04/23-14-33/%E5%B7%A5%E5%85%B7/Maven/</url>
+    <content><![CDATA[<h1 id="Maven"><a href="#Maven" class="headerlink" title="Maven"></a>Maven</h1>]]></content>
+      <categories>
+        <category>工具</category>
+      </categories>
+      <tags>
+        <tag>工具</tag>
+        <tag>Maven</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Dubbo</title>
     <url>/2022/07/03/19-38-33/%E5%88%86%E5%B8%83%E5%BC%8F/Dubbo/</url>
     <content><![CDATA[<h1 id="Dubbo框架"><a href="#Dubbo框架" class="headerlink" title="Dubbo框架"></a>Dubbo框架</h1><h2 id="初始Dubbo"><a href="#初始Dubbo" class="headerlink" title="初始Dubbo"></a>初始Dubbo</h2><h3 id="为什么说Dubbo说自己性能高"><a href="#为什么说Dubbo说自己性能高" class="headerlink" title="为什么说Dubbo说自己性能高"></a>为什么说Dubbo说自己性能高</h3><blockquote>
@@ -803,44 +899,6 @@
         <tag>分布式</tag>
         <tag>SpringSecurity</tag>
         <tag>Spring</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Maven</title>
-    <url>/2022/07/04/23-14-33/%E5%B7%A5%E5%85%B7/Maven/</url>
-    <content><![CDATA[<h1 id="Maven"><a href="#Maven" class="headerlink" title="Maven"></a>Maven</h1>]]></content>
-      <categories>
-        <category>工具</category>
-      </categories>
-      <tags>
-        <tag>Maven</tag>
-        <tag>工具</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>MySQL</title>
-    <url>/2022/07/04/16-31-37/%E5%B7%A5%E5%85%B7/MySQL/</url>
-    <content><![CDATA[<h1 id="MySQL"><a href="#MySQL" class="headerlink" title="MySQL"></a>MySQL</h1><h2 id="SQL、DB、DBMS关系"><a href="#SQL、DB、DBMS关系" class="headerlink" title="SQL、DB、DBMS关系"></a>SQL、DB、DBMS关系</h2><blockquote>
-<ol>
-<li>  SQL：结构化查询语言，是一门标准通用的语言。标准的SQL适合于所有的数据库产品</li>
-<li>  DB：DataBase（数据库）</li>
-<li>  DBMS：DataBase Management System（数据库管理系统，常见的有：Mysql Oracle DB2 Sybase SqlServer…）</li>
-</ol>
-<p>  DBMS负责执行SQL语句，通过执行SQL语句来操作DB当中的数据</p>
-<p>  DBMS –&gt; SQL –&gt; DB</p>
-</blockquote>
-<p>登录账户</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">mysql -uroot -ppassword  # 密码明文显示</span><br><span class="line">mysql -uroot -p					# 密码隐藏输入</span><br></pre></td></tr></table></figure>
-
-
-
-]]></content>
-      <categories>
-        <category>工具</category>
-      </categories>
-      <tags>
-        <tag>工具</tag>
-        <tag>MySQL</tag>
       </tags>
   </entry>
   <entry>
